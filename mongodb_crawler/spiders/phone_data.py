@@ -3,7 +3,7 @@ from ..items import PhonesItem
 
 
 class PhonesSpider(scrapy.Spider):
-    name = 'phone_data'
+    name = 'phones'
     allowed_domains = ['productindetail.com']
     start_urls = ['https://www.productindetail.com/phones']
 
