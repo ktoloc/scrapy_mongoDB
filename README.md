@@ -1,6 +1,6 @@
 # MongoDB & Scrapy 
 
-Repository of scrapy spider that scrapes phone data from the website https://www.productindetail.com/ and stores the collected data in a MongoDB database. You can follow the accompanying tutorial to [Build a Web Scraper with MongoDB](https://www.mongodb.com/basics/how-to-use-mongodb-to-store-scraped-data).
+Repository of scrapy spider that scrapes all _phones_ data from all the pages on this website https://www.productindetail.com/ and stores the collected data in a MongoDB database. You can follow the accompanying tutorial to [Build a Web Scraper with MongoDB](https://www.mongodb.com/basics/how-to-use-mongodb-to-store-scraped-data).
 
 ## Create MongoDB 
 
