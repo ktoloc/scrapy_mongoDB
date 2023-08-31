@@ -19,7 +19,7 @@ cd scrapy_mongoDB
 Go to the `scrape` folder and start the crawler:
 ```
 cd mongodb_crawler
-scrapy crawl phone_data -s MONGODB_URI="mongodb+srv://test:test123@cluster0.mdmu8oy.mongodb.net/" -s MONGODB_DATABASE="phone_data"
+scrapy crawl phones -s MONGODB_URI="mongodb+srv://<YOUR_CONNECTION_STRING>" -s MONGODB_DATABASE="phone_data"
 ```
 
 Open your `scrapy` database with Compass, there should be 110 documents in the `scrapy_items` collection.
